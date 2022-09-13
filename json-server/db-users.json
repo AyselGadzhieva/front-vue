@@ -1,0 +1,272 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "bruno@email.com",
+      "password": "bruno",
+      "roles": [
+        {
+          "name": "partner"
+        }
+      ],
+      "surname": "Кузнецов",
+      "name": "Олег",
+      "patronymic": "Петрович",
+      "organization": "Югория",
+      "phone": "+7 (939) 032-42-34"
+    },
+    {
+      "id": 2,
+      "email": "nilson8@email.com",
+      "password": "nilson",
+      "roles": [
+        {
+          "name": "moderator"
+        }
+      ],
+      "surname": "Сидорова",
+      "name": "Нина",
+      "patronymic": "Сергеевна",
+      "organization": "Югорский государственный университет",
+      "phone": "+7 (955) 012-63-89"
+    },
+    {
+      "id": 3,
+      "email": "ivan@ddsf.rt",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "partner"
+        }
+      ],
+      "surname": "Иванов",
+      "name": "Иван",
+      "patronymic": "Иванович",
+      "organization": "Югорский государственный университет",
+      "phone": "+7 (934) 346-75-34"
+    },
+    {
+      "id": 4,
+      "email": "alex@example.ru",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "expert",
+          "subject_areas": [
+            {
+              "id": 1,
+              "name": "Информационные технологии"
+            }
+          ]
+        },
+        {
+          "name": "curator",
+          "subject_areas": [
+            {
+              "id": 1,
+              "name": "Информационные технологии"
+            },
+            {
+              "id": 2,
+              "name": "Математика"
+            }
+          ]
+        }
+      ],
+      "surname": "Петрушов",
+      "name": "Алексей",
+      "patronymic": "Сергеевич",
+      "organization": "Югорский государственный университет",
+      "phone": "+7 (971) 123-65-22"
+    },
+    {
+      "id": 5,
+      "email": "curator@example.com",
+      "password": "qwe123321",
+      "roles": [
+        {
+          "name": "curator",
+          "subject_areas": [
+            {
+              "id": 2,
+              "name": "Математика"
+            }
+          ]
+        }
+      ],
+      "surname": "Соколова",
+      "name": "Елена",
+      "patronymic": "Андреевна",
+      "organization": "Югорский государственный университет",
+      "phone": "+7 (934) 235-66-64"
+    },
+    {
+      "id": 6,
+      "email": "oleg123@example.ru",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "student"
+        }
+      ],
+      "surname": "Смирнов",
+      "name": "Олег",
+      "patronymic": "Александрович",
+      "organization": "Югорский государственный университет",
+      "institute": "Институт цифровой экономики (ИЦЭ)",
+      "specialty": {
+        "code": "09.03.01",
+        "name": "Информатика и вычислительная техника"
+      },
+      "group": "1182б",
+      "phone": "+7 (923) 423-42-34"
+    },
+    {
+      "id": 7,
+      "email": "student@example.ru",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "student"
+        }
+      ],
+      "surname": "Александров",
+      "name": "Евгений",
+      "patronymic": "Иванович",
+      "organization": "Югорский государственный университет",
+      "institute": "Институт цифровой экономики (ИЦЭ)",
+      "specialty": {
+        "code": "09.03.01",
+        "name": "Информатика и вычислительная техника"
+      },
+      "group": "1182б",
+      "phone": "+7 (978) 906-12-33"
+    },
+    {
+      "id": 8,
+      "email": "student2@example.ru",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "student"
+        }
+      ],
+      "surname": "Шашков",
+      "name": "Артем",
+      "patronymic": "Олегович",
+      "organization": "Югорский государственный университет",
+      "institute": "Институт цифровой экономики (ИЦЭ)",
+      "specialty": {
+        "code": "09.03.01",
+        "name": "Информатика и вычислительная техника"
+      },
+      "group": "1181б",
+      "phone": "+7 (933) 916-19-66"
+    },
+    {
+      "id": 9,
+      "email": "student3@example.ru",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "student"
+        }
+      ],
+      "surname": "Иванов",
+      "name": "Сергей",
+      "patronymic": "Олегович",
+      "organization": "Югорский государственный университет",
+      "institute": "Институт цифровой экономики (ИЦЭ)",
+      "specialty": {
+        "code": "09.03.01",
+        "name": "Информатика и вычислительная техника"
+      },
+      "group": "1183б",
+      "phone": "+7 (922) 916-19-66"
+    },
+    {
+      "id": 10,
+      "email": "student4@example.ru",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "student"
+        }
+      ],
+      "surname": "Иванова",
+      "name": "Ольга",
+      "patronymic": "Ивановна",
+      "organization": "Югорский государственный университет",
+      "institute": "Институт цифровой экономики (ИЦЭ)",
+      "specialty": {
+        "code": "09.03.01",
+        "name": "Информатика и вычислительная техника"
+      },
+      "group": "1183б",
+      "phone": "+7 (921) 916-19-66"
+    },
+    {
+      "id": 11,
+      "email": "student5@example.ru",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "student"
+        }
+      ],
+      "surname": "Петрова",
+      "name": "Алена",
+      "patronymic": "Игоревна",
+      "organization": "Югорский государственный университет",
+      "institute": "Институт цифровой экономики (ИЦЭ)",
+      "specialty": {
+        "code": "09.03.01",
+        "name": "Информатика и вычислительная техника"
+      },
+      "group": "1181б",
+      "phone": "+7 (921) 123-19-66"
+    },
+    {
+      "id": 12,
+      "email": "student6@example.ru",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "student"
+        }
+      ],
+      "surname": "Ломоносова",
+      "name": "Кристина",
+      "patronymic": "Ивановна",
+      "organization": "Югорский государственный университет",
+      "institute": "Институт цифровой экономики (ИЦЭ)",
+      "specialty": {
+        "code": "09.03.01",
+        "name": "Информатика и вычислительная техника"
+      },
+      "group": "1181б",
+      "phone": "+7 (921) 652-19-66"
+    },
+    {
+      "id": 13,
+      "email": "expert@example.ru",
+      "password": "qwe123",
+      "roles": [
+        {
+          "name": "expert",
+          "subject_areas": [
+            {
+              "id": 2,
+              "name": "Математика"
+            }
+          ]
+        }
+      ],
+      "surname": "Дубровский",
+      "name": "Константин",
+      "patronymic": "Владимирович",
+      "organization": "Югорский государственный университет",
+      "phone": "+7 (971) 199-00-22"
+    }
+  ]
+}
